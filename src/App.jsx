@@ -1,13 +1,15 @@
+import Body from "./components/Body";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <main>
-      <div className="p-8">
-        <img src="/logo.svg" alt="logo" />
-      </div>
-
+    <main className="justify-center items-center">
+      <Navbar />
       <div>
-        <img src="/image-web-3-mobile.jpg" alt="mainpic" />
+        <img src="/image-web-3-mobile.jpg" alt="mainpic" className="lg:hidden"/>
+        <img src="/image-web-3-desktop.jpg" alt="mainpic" className="hidden md:flex"/>
       </div>
+      <Body />
     </main>
   );
 }
