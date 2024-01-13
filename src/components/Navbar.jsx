@@ -12,8 +12,8 @@ const Navbar = () => {
           <p>Trending</p>
           <p>Categories</p>
       </div>
-      <p className="object-cover h-[1.8rem] md:hidden" onClick={()=>setShowMenu(!showMenu)}>
-      <img src="/mobilebars.svg" alt="logo" height={120} width={120}/>
+      <p className="object-cover md:hidden" onClick={()=>setShowMenu(!showMenu)}>
+      <img src="/mobilebars.svg" alt="logo" className="h-28 w-20"/>
       </p>
       <div className="absolute mt-16 mr-8 z-[2] flex flex-col p-[0.5rem] min-w-[15rem] rounded-2xl bg-white" style={{display: showMenu ? 'flex': 'none'}}>
       <p>Home</p>

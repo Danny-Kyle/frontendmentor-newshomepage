@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="justify-center items-center">
+    <main className="justify-center items-center p-4">
       <Navbar />
       <div>
         <img src="/image-web-3-mobile.jpg" alt="mainpic" className="lg:hidden"/>

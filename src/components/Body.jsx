@@ -13,7 +13,7 @@ function Body(){
 
             <section></section>
 
-            <section>
+            <section className="flex flex-col gap-8">
                 <div>
                     <img src="/image-retro-pcs.jpg" alt="retropcs" />
                     <div>
@@ -26,8 +26,8 @@ function Body(){
                     <img src="/image-top-laptops.jpg" alt="toplps" />
                     <div>
                         <p className="">02</p>
-                        <p className="">Top 10 Laptops of 2022</p>
-                        <p></p>
+                        <p className="capitalize text-black font-bold text-lg">Top 10 Laptops of 2022</p>
+                        <p className=""></p>
                     </div>
                 </div>
                 <div>
@@ -35,7 +35,7 @@ function Body(){
                     <div>
                         <p className="">03</p>
                         <p className="capitalize text-black font-bold text-lg">the growth of gaming</p>
-                        <p></p>
+                        <p className="">How the pandemic has sparked fresh opportunities.</p>
                     </div>
                 </div>
                 
