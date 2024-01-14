@@ -13,16 +13,18 @@ function Body(){
 
             <section className="bg-black text-white p-6 my-3">
                 <h1 className="text-orange-700 font-extrabold text-4xl">NEW</h1>
-                <div>
+                <div className="my-3">
                     <p className="capitalize">hydrogen VS electric cars</p>
                     <div>take one</div>
                 </div>
-                <div>
-                    <p className="capitalize">02</p>
+                <br />
+                <div className="my-3">
+                    <p className="capitalize">the downsides of AI artistry</p>
                     <div>take two</div>
                 </div>
-                <div>
-                    <p className="capitalize">03</p>
+                <br />
+                <div className="my-2">
+                    <p className="capitalize">is VC funding drying up?</p>
                     <div>take three</div>
                 </div>
             </section>
