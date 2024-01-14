@@ -12,16 +12,17 @@ function Body(){
             </button>
 
             <section className="bg-black text-white p-6 my-3">
+                <h1 className="text-orange-700 font-extrabold text-4xl">NEW</h1>
                 <div>
-                    <p>01</p>
+                    <p className="capitalize">hydrogen VS electric cars</p>
                     <div>take one</div>
                 </div>
                 <div>
-                    <p>02</p>
+                    <p className="capitalize">02</p>
                     <div>take two</div>
                 </div>
                 <div>
-                    <p>03</p>
+                    <p className="capitalize">03</p>
                     <div>take three</div>
                 </div>
             </section>
