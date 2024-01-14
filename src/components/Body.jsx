@@ -16,7 +16,7 @@ function Body(){
                 <div className="flex flex-col divide-y-2">
                 <div className="my-3">
                     <p className="capitalize">hydrogen VS electric cars</p>
-                    <div>take one</div>
+                    <div>Will hydrogen-fueled cars ever catch up to EVs?</div>
                 </div>
                 <div className="my-3">
                     <p className="capitalize">the downsides of AI artistry</p>
@@ -30,7 +30,7 @@ function Body(){
             </section>
 
             <section className="flex flex-col gap-8">
-                <div>
+                <div className="flex flex-row gap-3">
                     <img src="/image-retro-pcs.jpg" alt="retropcs" />
                     <div>
                         <p className="">01</p>
@@ -38,7 +38,7 @@ function Body(){
                         <p className="">What happens when old PCs are given modern upgrades?</p>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-row gap-3">
                     <img src="/image-top-laptops.jpg" alt="toplaptops" />
                     <div>
                         <p className="">02</p>
@@ -46,7 +46,7 @@ function Body(){
                         <p className="">Our best picks for various needs and budgets</p>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-row gap-3">
                     <img src="/image-gaming-growth.jpg" alt="gamegrow" />
                     <div>
                         <p className="">03</p>
