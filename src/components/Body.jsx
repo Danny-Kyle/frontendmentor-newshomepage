@@ -31,15 +31,15 @@ function Body(){
 
             <section className="flex flex-col gap-8">
                 <div className="flex flex-row gap-3">
-                    <img src="/image-retro-pcs.jpg" alt="retropcs" />
+                    <img src="/image-retro-pcs.jpg" alt="retropcs" className="h-32 w-36"/>
                     <div>
                         <p className="">01</p>
-                        <p className="">Reviving Retro PCs</p>
+                        <p className="capitalize text-black font-bold text-lg">Reviving Retro PCs</p>
                         <p className="">What happens when old PCs are given modern upgrades?</p>
                     </div>
                 </div>
                 <div className="flex flex-row gap-3">
-                    <img src="/image-top-laptops.jpg" alt="toplaptops" />
+                    <img src="/image-top-laptops.jpg" alt="toplaptops" className="h-32 w-36"/>
                     <div>
                         <p className="">02</p>
                         <p className="capitalize text-black font-bold text-lg">Top 10 Laptops of 2022</p>
@@ -47,7 +47,7 @@ function Body(){
                     </div>
                 </div>
                 <div className="flex flex-row gap-3">
-                    <img src="/image-gaming-growth.jpg" alt="gamegrow" />
+                    <img src="/image-gaming-growth.jpg" alt="gamegrow" className="h-32 w-36"/>
                     <div>
                         <p className="">03</p>
                         <p className="capitalize text-black font-bold text-lg">the growth of gaming</p>
