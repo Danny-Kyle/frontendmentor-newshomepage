@@ -13,9 +13,11 @@ const Navbar = () => {
           <p>Categories</p>
       </div>
       <p className="object-cover md:hidden" onClick={()=>setShowMenu(!showMenu)}>
-      <img src="/mobilebars.svg" alt="logo" className="h-28 w-20"/>
+      <div>
+        {showMenu === false ? <img src="/mobilebars.svg" alt="logo" className="h-28 w-20"/> : <img src="/mobileX.svg" alt="logo" className="h-28 w-20"/>}
+      </div>
       </p>
-      <div className="absolute mt-16 mr-8 z-[2] flex flex-col p-[0.5rem] min-w-[15rem] rounded-2xl bg-white" style={{display: showMenu ? 'flex': 'none'}}>
+      <div className="absolute mt-16 mr-8 z-2 bottom-72 right-0 flex flex-col p-[0.5rem] min-w-[15rem] rounded-2xl bg-white gap-5" style={{display: showMenu ? 'flex': 'none'}}>
       <p>Home</p>
           <p>New</p>
           <p>Popular</p>
