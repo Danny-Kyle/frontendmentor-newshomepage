@@ -1,7 +1,7 @@
 function Body(){
     return(
         <main>
-            <div className="capitalize font-extrabold text-4xl">
+            <div className="capitalize font-extrabold text-4xl md:text-wrap md:w-[580px] ">
                 The Bright Future of Web 3.0?
             </div>
             <article>
