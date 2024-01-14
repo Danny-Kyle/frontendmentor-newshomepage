@@ -13,19 +13,19 @@ function Body(){
 
             <section className="bg-black text-white p-6 my-3">
                 <h1 className="text-orange-700 font-extrabold text-4xl">NEW</h1>
+                <div className="flex flex-col divide-y-2">
                 <div className="my-3">
                     <p className="capitalize">hydrogen VS electric cars</p>
                     <div>take one</div>
                 </div>
-                <br />
                 <div className="my-3">
                     <p className="capitalize">the downsides of AI artistry</p>
-                    <div>take two</div>
+                    <div>What are the possible adverse effects of on demand AI image generators?</div>
                 </div>
-                <br />
                 <div className="my-2">
                     <p className="capitalize">is VC funding drying up?</p>
-                    <div>take three</div>
+                    <div>Private funding by VC firms is down 50% YOY. We take a look at what that means</div>
+                </div>
                 </div>
             </section>
 
