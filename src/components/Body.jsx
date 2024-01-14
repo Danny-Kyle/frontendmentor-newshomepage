@@ -35,7 +35,7 @@ function Body(){
                     <div>
                         <p className="">01</p>
                         <p className="">Reviving Retro PCs</p>
-                        <p className=""></p>
+                        <p className="">What happens when old PCs are given modern upgrades?</p>
                     </div>
                 </div>
                 <div>
@@ -43,7 +43,7 @@ function Body(){
                     <div>
                         <p className="">02</p>
                         <p className="capitalize text-black font-bold text-lg">Top 10 Laptops of 2022</p>
-                        <p className=""></p>
+                        <p className="">Our best picks for various needs and budgets</p>
                     </div>
                 </div>
                 <div>
