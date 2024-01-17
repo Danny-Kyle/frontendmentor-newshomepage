@@ -6,11 +6,11 @@ const Navbar = () => {
     <nav className="p-8 flex flex-row justify-between items-center">
       <img src="/logo.svg" alt="logo" />
       <div className="hidden md:flex md:flex-row gap-6 ">
-      <p>Home</p>
-          <p>New</p>
-          <p>Popular</p>
-          <p>Trending</p>
-          <p>Categories</p>
+      <p className='cursor-pointer'>Home</p>
+          <p className='cursor-pointer'>New</p>
+          <p className='cursor-pointer'>Popular</p>
+          <p className='cursor-pointer'>Trending</p>
+          <p className='cursor-pointer'>Categories</p>
       </div>
       <p className="object-cover md:hidden" onClick={()=>setShowMenu(!showMenu)}>
       <div>
