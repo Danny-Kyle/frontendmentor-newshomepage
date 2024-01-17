@@ -29,7 +29,7 @@ function Body(){
                 </div>
             </section>
 
-            <section className="flex flex-col gap-8">
+            <section className="flex flex-col lg:flex-row gap-8">
                 <div className="flex flex-row gap-3">
                     <img src="/image-retro-pcs.jpg" alt="retropcs" className="h-32 w-36"/>
                     <div>
