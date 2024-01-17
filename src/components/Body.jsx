@@ -1,15 +1,21 @@
 function Body(){
     return(
         <main>
-            <div className="capitalize font-extrabold text-4xl md:text-wrap md:w-[580px] ">
+            <div>
+            <div className="flex lg:flex-row">
+            <div className="capitalize font-extrabold text-4xl lg:text-8xl md:text-wrap md:w-[580px] ">
                 The Bright Future of Web 3.0?
             </div>
-            <article>
+           <div>
+           <article>
                 We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people, But is it really fulfilling its promise?
             </article>
             <button className="py-4 px-8 text-white items-center justify-center my-2 bg-orange-500">
                 READ MORE
             </button>
+           </div>
+            </div>
+            
 
             <section className="bg-black text-white p-6 my-3">
                 <h1 className="text-orange-700 font-extrabold text-4xl">NEW</h1>
@@ -28,6 +34,7 @@ function Body(){
                 </div>
                 </div>
             </section>
+            </div>
 
             <section className="flex flex-col lg:flex-row gap-8">
                 <div className="flex flex-row gap-3">
