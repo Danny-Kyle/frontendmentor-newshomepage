@@ -2,8 +2,8 @@ function Body(){
     return(
         <main>
             <div>
-            <div className="flex lg:flex-row">
-            <div className="capitalize font-extrabold text-4xl lg:text-8xl md:text-wrap md:w-[580px] ">
+            <div className="flex flex-row">
+            <div className="capitalize font-extrabold text-4xl md:text-wrap md:w-[580px] ">
                 The Bright Future of Web 3.0?
             </div>
            <div>
